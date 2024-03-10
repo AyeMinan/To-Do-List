@@ -1,0 +1,145 @@
+body {
+    font-family: "Poppins", "Times New Roman", sans-serif;
+}
+
+.container .second-container {
+    background-color: #FAF3F0;
+}
+.container.first-container {
+    height: 100vh;
+
+}
+.container .menu {
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.container .search-bar {
+    padding: 30px;
+}
+.container .menu-icon {
+    font-size: 1.5rem;
+}
+
+.container .menu h2 {
+    font-size: 1.5rem;
+}
+
+.heading {
+    margin-top: 20px;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.todotasks {
+    padding: 20px;
+    cursor: pointer;
+}
+.todotasks h4:hover{
+    opacity: 0.8;
+}
+
+.todolists {
+    padding: 20px;
+}
+
+.column1 {
+    background-color: #FAF3F0;
+}
+.first-column {
+    height: 100%;
+}
+.row {
+    height: 100%;
+}
+.signout {
+    position: relative;
+    flex: 1;
+    padding: 10px;
+}
+.edit-btn {
+    bottom: 0;
+    /* position: absolute; */
+}
+
+#listTable{
+    border-collapse: collapse;
+    margin-top: 20px;
+    display: none;
+}
+
+#upcomingTasksTable{
+    border-collapse: collapse;
+    margin-top: 20px;
+    display: none;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #ffffff;
+}
+
+td {
+    background-color: #ffffff;
+}
+
+.show-table {
+    display: table; /* Show the table when this class is added */
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+#TodayLists {
+    display: none;
+
+}
+#TodayLists h4{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+#TodayLists li{
+    text-align: left;
+    margin-left: 280px;
+
+}
+
+#newList{
+    display: none;
+}
+
+.todolists  {
+    cursor: pointer;
+
+}
+.todolists button{
+    margin-top: 20px;
+}
+
+.todolists h5:hover{
+    opacity: 0.8;
+}
+.todolists .editList-btn{
+    margin-right: 20px;
+    padding: 0;
+
+
+}
+.todolists .complete-btn{
+    margin: auto;
+    padding: 0;
+}
+#editListForm{
+    display: none;
+}
+#listTable {
+    display: none;
+}
